@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos de imagens</title>
+</head>
+<body>
+    <h1>Imagens que se Adaptam</h1>
+    <p>Aumente ou diminua o tamanho da sua guia</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem alternada">
+    </picture>
+
+    <h2>Audios</h2>
+    <p>Esse audio a seguir pode ser considerado um milagre</p>
+    <audio src="midia/aw2.mp3" controls preload="metadata"></audio>
+</body>
+</html>
