@@ -4,34 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-color: skyblue;
-        }
 
-       #maior {
+    <style>
+        #grandao {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
             background-color: purple;
-            height: 100vh;
-            border: 2px solid black;
-            height: 300px;
-            width: 300px;
+            height: 96vh;
+            padding: 10px;
+            
             position: relative;
         }
 
-        #menor {
+        #grandinho {
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
             position: absolute;
-            margin: 0px;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+
+            background-color: yellow;
+            height: 300px;
+            width: 300px;
         }
     </style>
 </head>
 <body>
-    <div id="maior">
-        <div id="menor">
-            <p>ola mundo</p>
-        </div>
-    </div>
+    <section id="grandao">
+        <article id="grandinho">
+            <h1>oi</h1>
+        </article>
+    </section>
 </body>
 </html>
